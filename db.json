@@ -1,27 +1,34 @@
-
-  "tb_import": [ 
-                  {
-                    "nome" : "Folha KRAFT",
-                    "descr" : "Aspecto reciclado, tem várias gramaturas e muito usados em artes e trabalhos escolares."
-                  },
-                  {
-                    "nome" : "Canetas esfereográficas BIC coloridas",
-                    "descr" : "Escrita e decoração de páginas, várias cores."
-                  },
-                  {
-                    "nome" : "Caneta pena tinteiro",
-                    "descr" : "Uso amplo desde escritório até contorno de desenhos e artes variadas."
-                  },
-                  {
-                    "nome" : "Giz de cera pastel",
-                    "descr" : "Indicado para professores, crianças (supervisionadas por um adulto), artesãos e artistas."
-                  },
-                  {
-                    "nome" : "Tinta aquarela Van Gogh",
-                    "descr" : "A aquarela da Van Gogh é uma das melhores aquarelas de nível estudante, super elogiada pelos artistas. Seus pigmentos são intensos e vívidos."
-                  },
-                  {
-                    "nome" : "Giz pastel oleoso",
-                    "descr" : "É um estojo com ótimo custo benefício e uma qualidade super legal pra iniciar no mundo do giz pastel!"
-                  }
-                ]
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "description": "this is description 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "description": "this is description 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "description": "this is description 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "comment 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "comment 2",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Profile 1"
+  }
+}
